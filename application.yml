@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active:
+      - dev
+
+---
+
+spring:
+  profiles: dev # 开发环境
+  application:
+    name: LYS-Config-dev
+
+---
+
+spring:
+  profiles: release # 测试环境
+  application:
+    name: LYS-Config-release
